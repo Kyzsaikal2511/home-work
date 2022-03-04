@@ -161,6 +161,40 @@ body {
   color: var(--pure-white);
   background-color: var(--accent);
 }
+
+.portfolio {
+  margin-bottom: 60px;
+  background-color: var(--accent);
+}
+
+.portfolio-title {
+  margin-bottom: 2em;
+  color: var(--pure-white);
+}
+
+.portfolio ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.portfolio li {
+  border-radius: 10px;
+  background-color: var(--pure-white);
+  text-align: center;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.portfolio img {
+  width: 110%;
+  height: 250px;
+  object-fit: cover;
+}
+
 .footer p {
-  text-align: left;
+  text-align: center;
 }
